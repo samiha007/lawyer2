@@ -1,0 +1,241 @@
+font-family: 'Montserrat', sans-serif;
+.navbar-light .navbar-nav .nav-link{
+    color: #204f87;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #204f87 ;
+}
+.banner{
+    background-image: url(../images/lawyer_pro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hg{
+    min-height: 90vh;
+    align-items: center;
+}
+.banner h1{
+    color: white;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.who-we-are{
+
+}
+.who-we-are h1{
+    color: #204f87;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.who-we-are p, .attorneys p{
+    color: #b0b0b1;
+
+}
+.who-we-are span, .attorneys span{
+    display: block;
+    height: 5px;
+    width: 0px;
+    background-color: #f2622b;
+    transition: .4s all ease-in-out;
+}
+.who-we-are:hover span{
+    width: 50px;
+}
+.attorneys:hover span{
+    width: 50px;
+}
+.what-we-do{
+    background-color: #f8f8f8;
+    background-image: url(../images/lawyer_pro.png-orange.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 800px;
+}
+.what-we-do h1{
+    text-transform: uppercase;
+    color: #204f87;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.what-we-do span, .contact span, .language span{
+    display: inline-block;
+    height: 5px;
+    width: 0px;
+    background: #f2622b ;
+    transition: .4s all ease-in-out;
+}
+.language:hover span{
+    width: 50px;
+}
+.what-we-do:hover span{
+    width: 50px;
+}
+.we-do{
+    position: relative;
+}
+.we-do::before{
+    content: '';
+    position: absolute;
+    bottom:0;
+    left:0;
+    height: 0;
+    width:100%;
+    transition: .4s ease-in-out;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7db9e8+0,28377e+100&0+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(125,185,232,0) 0%, rgba(40,55,126,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(125,185,232,0) 0%,rgba(40,55,126,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(125,185,232,0) 0%,rgba(40,55,126,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#28377e',GradientType=0 ); /* IE6-9 */
+
+
+}
+.we-do:hover::before{
+    height: 100%;
+}
+.content{
+    position: absolute;
+    top: 60%;
+    left:50%;
+    transform:translate(-50%,-50%); 
+    text-transform: uppercase;
+    opacity: 0;
+    transition: .4s ease-in-out;
+}
+.content h1{
+    font-size: 21px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.we-do:hover .content{
+    opacity: 1;
+    top: 50%;
+} 
+.icon{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-50%);
+    color: white;
+    font-size: 40px;
+}
+.we-do:hover .icon{
+    left: 50%;
+    opacity: ;
+}
+.attorneys{
+    background-image: url(../images/lawyer_pro.png-blue.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background size: cover;
+    min-height: 500px;
+}
+.attorneys h1{
+    color: white;
+    text-transform: capitalize;
+
+}
+
+.attorneys a, .language a{
+    font-size: 16px;
+    color:#f2622b;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+.attrcontent{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+.attrcontent h1, .attrcontent h2{
+    font-size: 30px;
+    color: white;
+}
+.we-do:hover .attrcontent{
+    bottom: 50px;
+    opacity: 1;
+}
+.language{
+    min-height: 600px;
+}
+.language h1{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #204f87;
+}
+
+
+.language h2{
+    color: #204f87;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 24px;
+}
+.contact{
+    background-color: #28377e;
+}
+.contact:hover span{
+    width: 50px;
+}
+.contact h1{
+    color: white;
+    text-transform: capitalize;
+}
+.form-control{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    border-bottom: 1px solid white;
+}
+.form-control:focus {
+    background-color: transparent;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+    border-bottom: 1px solid white;
+}
+.form-control::placeholder{
+    color: rgb(255,255,255);
+}
+.btn{
+color: #fff;
+border: 1px solid #f2622c;
+padding: 10px 50px;
+border-radius: o;
+background-color:#f2622c;
+text-transform: uppercase;
+margin-top: 15px;
+}
+.footer{
+    background-color: #0c1234;
+}
+.footer p{
+    color: #50588b;
+    
+}
+.footer-icon{
+
+}
+.footer-icon ul li{
+    float: right;
+    margin-left: 30px;
+    color: #15a4fa;
+    list-style: none;
+    font-size: 22px;
+    text-transform: capitalize;
+   
+
+}
+
